@@ -82,7 +82,7 @@ vehicle_group = pygame.sprite.Group()
 crash = pygame.image.load('images/crash.png')
 crash_rect = crash.get_rect()
 
-#game loop
+# game loop
 clock = pygame.time.Clock()
 fps = 120
 running = True
